@@ -36,6 +36,7 @@ nav a:hover {
   color: #a9508b;
 }
 
+/* main css */
 .main {
   display: flex;
   justify-content: center;
@@ -105,4 +106,102 @@ section {
 .footer-bottom>img{
     margin: 5px;
     width: 12rem;
+}
+
+
+@media only screen and (max-width: 480px){
+  .header-nawbar {
+
+    border-bottom: 2px solid #a9508b;
+    background-color: #35424a;
+    color: white;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem .5rem;
+  }
+  nav a {
+    text-decoration: none;
+    font-size: 0.5rem;
+    color: white;
+    margin-left: .5rem;
+  }
+  .header-left {
+    font-size: .5rem;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/showcase.jpg);
+    height: 10rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: .5rem;
+  }
+
+  .h1-main>h1 {
+   margin:.5rem ;
+  }
+  
+  section {
+      background-color: #35424a;
+      color: white;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 .5rem;
+  }
+  .section-left{
+      font-size: .5rem;
+      font-weight: bold;
+  }
+  #email{
+      padding: 3px;
+     font-size: .3rem;
+      width: 4rem;
+
+  }
+  #submit{
+      background-color:#E84A1D ;
+      padding: 5px;
+      color: white;
+      border: none;
+      width: 2rem;
+      font-size: .3rem;
+
+  }
+  .footer-top{
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      height: 7.5rem;
+      
+  }
+  .footer-top>div{
+  
+      width: 15rem;
+      text-align: center;
+      font-size: 8px;
+  }
+  #footer-img{
+      width: 2rem;
+  }
+  .footer-bottom{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 3rem;
+      background-color: #35424a;
+      font-size: 6px;
+  }
+  .footer-bottom>img{
+      margin: 3px;
+      width: 4rem;
+  }
 }
