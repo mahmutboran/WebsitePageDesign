@@ -1,0 +1,116 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+  /*     background-image: url(./img/showcase.jpg);
+      height: 100%; */
+  }
+  .header-nawbar {
+  
+    border-bottom: 2px solid #a9508b;
+    background-color: #35424a;
+    color: white;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+    margin-left: 1rem;
+  }
+  nav a:hover {
+    color: #a9508b;
+  }
+  .header-left {
+    font-size: 1.3rem;
+  }
+  #h1-span {
+    color: #a9508b;
+  }
+  
+  .main {
+    display:flex;
+    height: 42rem;
+    justify-content: space-evenly;
+    line-height: 1.5;
+
+  }
+  .services{
+
+    width: 60%;
+    height: 10rem;
+    margin-top:  1rem;
+  }
+  .services>div{
+      margin: 5px 0;
+      padding: 10px;
+      background-color: #E6E6E6;
+  }
+  .get-quote{
+    color: white;
+    width: 30rem;
+    height: 15rem;
+    margin-top:  2rem;
+    background-color: #35424a;
+    padding:20px 10px;
+  }
+
+  .get-quote>form>button{
+      background-color: #E84A1D;
+      padding: 0.6rem;
+      color: white;
+      border: none;
+      width: 5rem;
+  }
+  .get-quote>form>input{
+      width: 28rem;
+      padding: 5px 0;
+  }
+
+  section {
+      background-color: #35424a;
+      color: white;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+  }
+  .section-left{
+      font-size: 1.4rem;
+      font-weight: bold;
+  }
+  #section-email{
+      padding: 0.5rem;
+      width: 16rem;
+  }
+  #submit{
+      background-color:#E84A1D ;
+      padding: 0.6rem;
+      color: white;
+      border: none;
+      width: 8rem;
+  }
+
+  .footer-bottom{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 7.5rem;
+      background-color: #35424a;
+  }
+  .footer-bottom>img{
+      margin: 5px;
+      width: 12rem;
+  }
